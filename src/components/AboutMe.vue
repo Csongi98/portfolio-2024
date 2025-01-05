@@ -282,7 +282,7 @@
 				>
 					<img
 						v-if="skill.icon"
-						:src="`/assets/icons/${skill.icon}`"
+						:src="`/portfolio-2024/assets/icons/${skill.icon}`"
 						alt=""
 						:class="{
 							'w-20':
