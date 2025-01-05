@@ -336,7 +336,7 @@
 				>
 					<img
 						v-if="software.icon"
-						:src="`/assets/icons/${software.icon}`"
+						:src="`/portfolio-2024/assets/icons/${software.icon}`"
 						alt=""
 						:class="{
 							'w-20':
