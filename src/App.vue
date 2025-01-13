@@ -50,10 +50,11 @@ const loading = ref(true);
 const isSafari = ref(false);
 
 const detectSafari = () => {
-	const ua = navigator.userAgent.toLowerCase();
-	isSafari.value =
-		ua.includes("safari") && !ua.includes("chrome") && !ua.includes("firefox");
+	isSafari = navigator.userAgent.indexOf("Safari") > -1;
 };
+
+console.log(isSafari.value);
+console.log(navigator.userAgent);
 
 const loadImages = async () => {
 	const images = Array.from(document.images);
@@ -78,7 +79,6 @@ onMounted(async () => {
 		console.error("Error loading images:", error);
 	}
 	loading.value = false;
-	console.log("Loading state:", loading.value);
 });
 </script>
 
