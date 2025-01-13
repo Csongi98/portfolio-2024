@@ -79,10 +79,6 @@ onMounted(async () => {
 	try {
 		detectSafari();
 
-		console.log(isSafari.value);
-		console.log(navigator.userAgent);
-		console.log(isChrome.value);
-
 		await loadImages();
 	} catch (error) {
 		console.error("Error loading images:", error);
