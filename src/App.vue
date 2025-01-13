@@ -48,13 +48,16 @@ import Intro from "./components/Intro.vue";
 
 const loading = ref(true);
 const isSafari = ref(false);
+const isChrome = ref(0);
 
 const detectSafari = () => {
-	isSafari = navigator.userAgent.indexOf("Safari") > -1;
-};
+	const ua = navigator.userAgent;
 
-console.log(isSafari.value);
-console.log(navigator.userAgent);
+	isSafari.value =
+		ua.includes("Safari") && !ua.includes("Chrome") && !ua.includes("Chromium");
+
+	isChrome.value = ua.includes("Chrome");
+};
 
 const loadImages = async () => {
 	const images = Array.from(document.images);
@@ -74,6 +77,12 @@ const loadImages = async () => {
 
 onMounted(async () => {
 	try {
+		detectSafari();
+
+		console.log(isSafari.value);
+		console.log(navigator.userAgent);
+		console.log(isChrome.value);
+
 		await loadImages();
 	} catch (error) {
 		console.error("Error loading images:", error);
