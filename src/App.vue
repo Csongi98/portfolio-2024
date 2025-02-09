@@ -1,36 +1,28 @@
 <template>
 	<div>
-		<div v-if="isSafari" class="safari-warning">
-			<div class="safari-message">
-				<h1>Safari Version in Development</h1>
-				<p>Please use another browser for the best experience.</p>
-			</div>
-		</div>
+		<LoadingScreen v-if="loading" />
 		<div v-else>
-			<LoadingScreen v-if="loading" />
-			<div v-else>
-				<div class="relative elementbg">
-					<img
-						class="absolute top-0 w-full"
-						src="/assets/images/5.png"
-						alt="Profile Image"
-					/>
-				</div>
-				<div class="appBody">
-					<Navbar></Navbar>
-					<Intro></Intro>
-					<Showcase></Showcase>
-					<AboutMe></AboutMe>
-					<BackToTop></BackToTop>
-					<Footer></Footer>
-				</div>
-				<div class="relative">
-					<img
-						class="absolute bottom-0 -z-10 w-full"
-						src="/assets/images/5circle.png"
-						alt="Profile Image"
-					/>
-				</div>
+			<div class="relative elementbg">
+				<img
+					class="absolute top-0 w-full"
+					src="/assets/images/5.png"
+					alt="Profile Image"
+				/>
+			</div>
+			<div class="appBody">
+				<Navbar></Navbar>
+				<Intro></Intro>
+				<Showcase></Showcase>
+				<AboutMe></AboutMe>
+				<BackToTop></BackToTop>
+				<Footer></Footer>
+			</div>
+			<div class="relative">
+				<img
+					class="absolute bottom-0 -z-10 w-full"
+					src="/assets/images/5circle.png"
+					alt="Profile Image"
+				/>
 			</div>
 		</div>
 	</div>
