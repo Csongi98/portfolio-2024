@@ -9,21 +9,21 @@
 			<div class="grid gap-4">
 				<div>
 					<img
-						class="h-full max-w-full rounded-lg z-10 object-cover"
+						class="h-auto max-w-full rounded-lg z-10 object-cover"
 						src="/assets/images/infpos.jpg"
 						alt=""
 					/>
 				</div>
 				<div>
 					<img
-						class="h-full max-w-full rounded-lg object-cover"
+						class="h-auto max-w-full rounded-lg object-cover"
 						src="/assets/images/magazin.jpg"
 						alt=""
 					/>
 				</div>
 				<div>
 					<img
-						class="h-full max-w-full rounded-lg object-cover"
+						class="h-auto max-w-full rounded-lg object-cover"
 						src="/assets/images/model2.jpg"
 						alt=""
 					/>
@@ -32,21 +32,21 @@
 			<div class="grid gap-4">
 				<div>
 					<img
-						class="h-full max-w-full rounded-lg object-cover"
+						class="h-auto max-w-full rounded-lg object-cover"
 						src="/assets/images/nvjegy.jpg"
 						alt=""
 					/>
 				</div>
 				<div>
 					<img
-						class="h-full max-w-full rounded-lg object-cover"
+						class="h-auto max-w-full rounded-lg object-cover"
 						src="/assets/images/poster1.jpg"
 						alt=""
 					/>
 				</div>
 				<div>
 					<img
-						class="h-full max-w-full rounded-lg object-cover"
+						class="h-auto max-w-full rounded-lg object-cover"
 						src="/assets/images/plax.jpg"
 						alt=""
 					/>
@@ -55,21 +55,21 @@
 			<div class="grid gap-4">
 				<div>
 					<img
-						class="h-full max-w-full rounded-lg object-cover"
+						class="h-auto max-w-full rounded-lg object-cover"
 						src="/assets/images/rajz3.jpg"
 						alt=""
 					/>
 				</div>
 				<div>
 					<img
-						class="h-full max-w-full rounded-lg object-cover"
-						src="/assets/images/kez1.jpg"
+						class="max-w-full rounded-lg object-cover"
+						src="/assets/images/StoreSign.jpg"
 						alt=""
 					/>
 				</div>
 				<div>
 					<img
-						class="h-full max-w-full rounded-lg object-cover"
+						class="h-auto max-h-72 max-w-full rounded-lg object-cover"
 						src="/assets/images/model.png"
 						alt=""
 					/>
@@ -78,21 +78,22 @@
 			<div class="grid gap-4">
 				<div>
 					<img
-						class="h-full max-w-full rounded-lg object-cover"
+						class="h-auto max-w-full rounded-lg object-cover"
 						src="/assets/images/products.jpg"
 						alt=""
 					/>
 				</div>
 				<div>
 					<img
-						class="h-full max-w-full rounded-lg object-cover"
-						src="/assets/images/StoreSign.jpg"
+						class="h-auto max-w-full rounded-lg object-cover"
+						src="/assets/images/kez1.jpg"
 						alt=""
 					/>
 				</div>
+
 				<div>
 					<img
-						class="h-full max-w-full rounded-lg object-cover"
+						class="max-w-full rounded-lg object-cover"
 						src="/assets/images/tattooplak.jpg"
 						alt=""
 					/>
