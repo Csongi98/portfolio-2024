@@ -2,7 +2,7 @@
 	<div class="rounded-xl fade-in" v-fade-in-on-scroll>
 		<nav
 			:class="[
-				'sticky top-0 z-50 border-gray-200 px-4 lg:px-6 py-2.5 rounded-xl transition duration-300',
+				'sticky top-0 z-50 border-gray-200 px-4 lg:px-6 py-2.5 rounded-xl transition duration-300 backdrop-blur-sm',
 				isScrolled ? 'shadow-lg dark:bg-gray-900' : 'shadow dark:bg-gray-800',
 			]"
 		>
